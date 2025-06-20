@@ -242,7 +242,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}\nUploaded By: <a herf="https://t.me/Bujjiofc">[TZ&BUJJI]</a></b>"""
+    CAPTION = """<b>{file_caption}\nUploaded By: <a herf="https://t.me/Bujjiofc">[TZ&BUJJI]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
