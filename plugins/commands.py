@@ -102,7 +102,7 @@ async def start(client, message):
                     InlineKeyboardButton('♻️ ᴅᴍᴄᴀ', callback_data='disclaimer'),
                     InlineKeyboardButton('👤 ᴀʙᴏᴜᴛ', callback_data='me')
                 ],[
-                     InlineKeyboardButton('• Updates •', url="https://t.me/Bujjiofc")
+                     InlineKeyboardButton('• Updates •', url="https://t.me/MULTIVERSE_UPDATES")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -253,7 +253,7 @@ async def start(client, message):
         except Exception as e:
             await log_error(client, f"Got Error In Verification Funtion.\n\n Error - {e}")
             print(f"Error In Verification - {e}")
-            await message.reply_text(f"Something Want Wrong ! Message Here - @SilentXBotz_Support")
+            await message.reply_text(f"Something Want Wrong ! Message Here - @jonsnowxbot")
             
     
     if data.startswith("allfiles"):
