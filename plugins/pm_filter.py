@@ -1210,7 +1210,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('♻️ ᴅᴍᴄᴀ', callback_data='disclaimer'),
                     InlineKeyboardButton('👤 ᴀʙᴏᴜᴛ', callback_data='me')
                 ],[
-                     InlineKeyboardButton('• Updates •', url="https://t.me/Bujjiofc")
+                     InlineKeyboardButton('• Updates •', url="https://t.me/MULTIVERSE_UPDATES")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1340,8 +1340,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     
     elif query.data == "me":
         buttons = [[
-            InlineKeyboardButton ('🎁 sᴏᴜʀᴄᴇ', callback_data='source'),
-        ],[
+           
+        
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
