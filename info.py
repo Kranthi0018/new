@@ -64,19 +64,19 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002066898793'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Howtodownload18/13")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtodownload18/11")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 
 SHORTENER_API = environ.get("SHORTENER_API", "83d3219341d2c8fe0de09c9d0fe3c54749ceec27")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f06ec4caec5912479b26cf25171559b2da64b52f")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gyanilinks.com")
 
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "12000"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get("MOVIE_UPDATE_NOTIFICATION", True))
